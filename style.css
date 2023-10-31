@@ -10,13 +10,7 @@ body {
 
 }
 
-@media screen and (min-width: 1280px) {
-    .navbar {
-        width: 200px;
-    }
-    .hisse2_1 {
-        padding-left: 30%;
-}
+
 
 .navbar {
     background-color: rgba(121, 238, 247, 0.8);
