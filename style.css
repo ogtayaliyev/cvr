@@ -71,7 +71,6 @@ background-size: cover;
 height: 5px;
 width: 200px;
 flex-shrink: 0;
-background-color: blue;
 }
 
 .wrap{
