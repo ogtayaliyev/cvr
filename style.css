@@ -137,14 +137,14 @@ width: 580px;
 }
 @media screen and (max-width: 770px) {
 .etudes_logo{
-width: 300px;
+width: 350px;
 }
 h2{font-size: 2rem;}
 
 h3{font-size: 1.1rem;}
 p{font-size: 0.9rem;}
-.hisse2{width: 100%;}
-.empty{width: 100px;}
+.hisse2{width: 350px;}
+.empty{width: 30px;}
 
 }
 .formulaire {
