@@ -14,7 +14,15 @@ background-color: rgb(73, 183, 211);
 text-align: center;
 }
 
-
+@media screen and (max-width:770px) {
+    body{
+        width: 50%;
+    }
+    .navbar{
+        display: none;
+    }
+    
+}
 .navbar {
 background-color: rgba(48,165,173,0.8);
 margin-left: 2%;
@@ -121,7 +129,18 @@ padding-left: 25px;
 width: 580px;
 
 }
+@media screen and (max-width: 770px) {
+    .etudes_logo{
+      width: 200px;
+    }
+    h2{font-size: 2rem;}
 
+    h3{font-size: 0.7rem;}
+    p{font-size: 0.5rem;}
+   .hisse2{width: 100%;}
+    .empty{width: 100px;}
+       
+   }
 .formulaire {
 line-height: 30px;
 font-family: 'DM sans', sans-serif;
