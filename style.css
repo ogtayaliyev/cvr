@@ -68,6 +68,12 @@ color: aliceblue;
 letter-spacing: 0.15em;
 }
 
+@media screen and (max-width:770px) {
+    #particles-js {
+        display: none;
+    }
+
+}
 #particles-js {
 background-image: url(./22.png);
 height: 100vh;
