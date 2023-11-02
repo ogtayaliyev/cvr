@@ -214,48 +214,34 @@
 
                     <h2>CONTACT</h2>
 
-                    <div class="formulaire">
-  <form action="./php.php" method="post"> 
-    <div class="form-group">
-      <label for="nom">Nom :</label>
-      <input type="text" id="nom" name="nom" required>
-    </div>
+<div class="formulaire">
 
-    <div class="form-group">
-      <label for="prenom">Prénom :</label>
-      <input type="text" id="prenom" name="prenom" required>
-    </div>
+                        <form action="traitement_formulaire.php" method="post">
 
-    <div class="form-group">
-      <label for="titre_message">Titre du message :</label>
-      <input type="text" id="titre_message" name="titre_message" required>
-    </div>
+                            <label for="nom">Nom :</label><br>
+                            <input type="text" id="nom" name="nom" required><br>
 
-    <div class="form-group">
-      <label for="objet">Objet :</label>
-      <select id="objet" name="objet">
-        <option value="prise_de_contact">Prise de contact</option>
-        <option value="devis">Message</option>
-      </select>
-    </div>
+                            <label for="prenom">Prénom :</label><br>
+                            <input type="text" id="prenom" name="prenom" required><br>
 
-    <div class="form-group">
-      <label for="message">Message :</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-    </div>
+                            <label for="titre_message">Titre du message :</label><br>
+                            <input type="text" id="titre_message" name="titre_message" required><br>
 
-    <div class="form-group">
-      <label for="cgv">
-        <input type="checkbox" id="cgv" name="cgv" required>
-        J'accepte les conditions générales
-      </label>
-    </div>
+                            <label for="objet">Objet :</label><br>
+                            <select id="objet" name="objet">
+                                <option value="prise_de_contact">Prise de contact</option>
+                                <option value="devis">Message</option>
+                            </select><br>
 
-    <div class="form-group">
-      <input type="submit" class="button1" value="Envoyer">
-    </div>
-  </form>
-</div>
+                            <label for="message">Message :</label><br>
+                            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+                            <label for="cgv">Accepter les conditions :</label>
+                            <input type="checkbox" id="cgv" name="cgv" required><br>
+
+                            <input type="submit" class="button1" value="Envoyer">
+                        </form>
+                    </div>
 
 
                 </div>
